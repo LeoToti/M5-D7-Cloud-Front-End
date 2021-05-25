@@ -1,1 +1,1 @@
-# M5-D7-Cloud-Front-End
+# Strive Blog Template
