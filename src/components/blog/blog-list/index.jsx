@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
+import { backend_url } from "../../../const";
 import BlogItem from "../blog-item";
 export default class BlogList extends Component {
 
@@ -8,8 +9,8 @@ export default class BlogList extends Component {
   }
 
   componentDidMount = async () => {
-    const apiUrl = process.env.REACT_APP_API_URL 
-    await this.fetchPosts(apiUrl)
+    const apiUrl = 'http://localhost:3001'
+    await this.fetchPosts(backend_url)
     
   }
 
