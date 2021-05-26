@@ -9,7 +9,7 @@ export default class BlogList extends Component {
   }
 
   componentDidMount = async () => {
-    const apiUrl = 'http://localhost:3001'
+    
     await this.fetchPosts(backend_url)
     
   }
